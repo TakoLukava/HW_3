@@ -1,0 +1,10 @@
+P = int(input('Enter percent: ')) 
+x = 1000                            #balance at the beginning
+m=0                                 # monthes 
+
+while x < 1100:
+  monthly= x*(P/100)
+  m+=1
+  x= x+ monthly*m
+
+print(x, m)
