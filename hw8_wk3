@@ -1,0 +1,11 @@
+grades = [('Ann', 9), ('John', 7), ('Smith', 5), ('George', 6)]
+
+for index in range(len(grades)):
+  i = grades[index]
+  marks = (i[1], i[0])
+  grades[index] = marks
+
+grades.sort()
+
+for marks in grades:
+  print('Hello {}! Your grade is {}.'.format(marks[1], marks[0]))
