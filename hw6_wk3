@@ -1,0 +1,14 @@
+_list=[]
+
+while True:
+  try:
+    x = int(input('Enter a set of numbers: '))
+    
+  except ValueError:
+    break
+    
+  _list.append(int(x))
+  
+_list.sort(key=lambda i: i>=0)
+
+print(_list)
