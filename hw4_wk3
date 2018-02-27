@@ -11,4 +11,4 @@ if 0<P<25:
   print('Balance:', x,'\n','Monthes:', m)
 
 else:
-  print('Not valid percent')
+  print('Not a valid percent')
